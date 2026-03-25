@@ -1,0 +1,15 @@
+[[moreau_cuda12]]
+arch = "x86_64"
+git-tree-sha1 = "2e94fd5f664bd81cf432bfb45e706ab66ed44bc9"
+wheel_filename = "moreau_clib_cuda12-0.2.0-py3-none-manylinux_2_28_x86_64.whl"
+libc = "glibc"
+wheel_sha256 = "e97a2847097e2da99f10a403f6c788f34e7d201de86312ebbc44b6542b87e7c0"
+os = "linux"
+
+[[moreau_cuda13]]
+arch = "x86_64"
+git-tree-sha1 = "b70142a4271b7d7ed8804066cf4084cf2a2d1187"
+wheel_filename = "moreau_clib_cuda13-0.2.0-py3-none-manylinux_2_28_x86_64.whl"
+libc = "glibc"
+wheel_sha256 = "38f86fa932ec77001ab9b12d0a2a3d28aecca4d4545b14792bbad2ef3a41b11e"
+os = "linux"
