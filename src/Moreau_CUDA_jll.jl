@@ -149,11 +149,19 @@ function _download_from_gemfury(artifacts_toml::String, artifact_name::String, h
         return
     end
 
-    wheel_filename = get(meta, "wheel_filename", nothing)
-    wheel_sha256 = get(meta, "wheel_sha256", nothing)
+    # Wheel metadata is nested under "wheel" table to avoid Julia treating
+    # it as platform tags (which reject special characters in values).
+    # Must NOT use "download" — Julia auto-fetches from download URLs.
+    whl = get(meta, "wheel", nothing)
+    if whl === nothing
+        @debug "Artifacts.toml missing wheel info for $(artifact_name)"
+        return
+    end
+    wheel_filename = get(whl, "filename", nothing)
+    wheel_sha256 = get(whl, "sha256", nothing)
 
     if wheel_filename === nothing
-        @debug "Artifacts.toml missing wheel_filename for $(artifact_name)"
+        @debug "Artifacts.toml missing wheel filename for $(artifact_name)"
         return
     end
 
