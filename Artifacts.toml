@@ -4,9 +4,9 @@ git-tree-sha1 = "baf9111ac2d289f120e859315e86aef476e72f6c"
 libc = "glibc"
 os = "linux"
 
-    [[moreau_cuda12.download]]
+    [moreau_cuda12.wheel]
     sha256 = "5d8638b88da1806d5a4638ddf998dc9f0080626fd0db1decda0d54188f186c56"
-    url = "moreau_clib_cuda12-0.2.1-py3-none-manylinux_2_28_x86_64.whl"
+    filename = "moreau_clib_cuda12-0.2.1-py3-none-manylinux_2_28_x86_64.whl"
 
 [[moreau_cuda13]]
 arch = "x86_64"
@@ -14,6 +14,6 @@ git-tree-sha1 = "5fa4a30c09122bda32fb5a92ae6e8b2c12327280"
 libc = "glibc"
 os = "linux"
 
-    [[moreau_cuda13.download]]
+    [moreau_cuda13.wheel]
     sha256 = "e07a39d5d59eab0851349bd412b60560b289cf420185e125ac968de51f0d7d4f"
-    url = "moreau_clib_cuda13-0.2.1-py3-none-manylinux_2_28_x86_64.whl"
+    filename = "moreau_clib_cuda13-0.2.1-py3-none-manylinux_2_28_x86_64.whl"
