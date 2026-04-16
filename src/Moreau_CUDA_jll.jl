@@ -1,6 +1,7 @@
 module Moreau_CUDA_jll
 
 using Artifacts
+using LazyArtifacts: ensure_artifact_installed
 using Libdl
 
 const libmoreau_cuda_path = Ref{String}("")
