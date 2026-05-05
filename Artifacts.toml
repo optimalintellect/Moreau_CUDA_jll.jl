@@ -1,19 +1,19 @@
 [[moreau_cuda12]]
 arch = "x86_64"
-git-tree-sha1 = "d880583457e746b049c6c290b70ab5a9fb1dad59"
+git-tree-sha1 = "22e0b463ed016960e1d4a92302d2223a9bfa818f"
 libc = "glibc"
 os = "linux"
 
     [[moreau_cuda12.download]]
-    sha256 = "2d605c4a46b3868698bbfcc23f7983b07da30575227bda1d3d4d29fbf5ae6328"
-    url = "https://github.com/optimalintellect/Moreau_CUDA_jll.jl/releases/download/v0.3.2/moreau-cuda12-linux-x86_64.tar.gz"
+    sha256 = "2681b55fe93240992b512cfd2771b7c5b52351b7860f5c0476d87c2eec63036a"
+    url = "https://github.com/optimalintellect/Moreau_CUDA_jll.jl/releases/download/v0.3.3/moreau-cuda12-linux-x86_64.tar.gz"
 
 [[moreau_cuda13]]
 arch = "x86_64"
-git-tree-sha1 = "4f81589a024ce6e12bae04fd272fdb2cf533a1fc"
+git-tree-sha1 = "ac6349db95e8c19514e777dd47dc01e5db4adf57"
 libc = "glibc"
 os = "linux"
 
     [[moreau_cuda13.download]]
-    sha256 = "ff76c0a05e16c599d87f32e7d55b38bcd115827e263db55e3aca0efef0006b06"
-    url = "https://github.com/optimalintellect/Moreau_CUDA_jll.jl/releases/download/v0.3.2/moreau-cuda13-linux-x86_64.tar.gz"
+    sha256 = "42a1b2122200af26a6f5884e03428f52733ac04e7d0f0500a971d9b81bdb4186"
+    url = "https://github.com/optimalintellect/Moreau_CUDA_jll.jl/releases/download/v0.3.3/moreau-cuda13-linux-x86_64.tar.gz"
